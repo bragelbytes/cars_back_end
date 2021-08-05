@@ -1,6 +1,6 @@
 const express = require("express")
 const router = express.Router()
-const Cars = require("..models/cars.js")
+const Cars = require("../models/cars.js")
 
 //GET
 router.get("/", (req, res) => {
